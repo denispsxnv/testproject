@@ -1,0 +1,74 @@
+.calendar {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .week {
+    display: flex;
+    flex-direction: column;
+    /* margin: 1px; */
+  }
+  
+  .contribution {
+    width: 10px;
+    height: 10px;
+    margin: 1px 1px;
+  }
+
+  .selectedDate {
+    width: 82px;
+    color: white;
+    background-color: black;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 10px;
+    position: absolute;
+    z-index: 99; 
+  }
+
+
+/* CSS стили для названий месяцев */
+.month {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* CSS стили для названий дней недели */
+  .day {
+    text-align: center;
+    font-weight: bold;
+    font-size: 9px;
+  }
+
+
+  .daysOfWeek div {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  
+
+
+  
+  .level0 {
+    background-color: #EDEDED;
+  }
+  
+  .level1 {
+    background-color: #ACD5F2;
+  }
+  
+  .level2 {
+    background-color: #7FA8C9;
+  }
+  
+  .level3 {
+    background-color: #527BA0;
+  }
+
+  .level4 {
+    background-color: #254E77;
+  }
+  
